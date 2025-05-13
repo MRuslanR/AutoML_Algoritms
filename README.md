@@ -1,24 +1,21 @@
-# AutoML_Algoritms
+# Hyperparameter Optimization Algorithm Comparison
 
-# Interactive AI Model Constructor
+This repository contains a systematic comparison of hyperparameter optimization (HPO) algorithms applied to both regression and classification tasks.
 
-An interactive framework for building, optimizing and evaluating classic machine-learning pipelines with support for multimodal tasks. This repository provides tools for hyperparameter optimization, experiment tracking, and stores precomputed results for regression and classification benchmarks.
+## Highlights
 
-## Features
-
-- **Interactive Pipeline Builder**  
-  Define and assemble data-processing and model-training steps using a simple, extensible interface.
-
-- **Hyperparameter Optimization (HPO)**  
+- **Algorithms Evaluated**  
   - Grid Search  
   - Random Search  
   - Bayesian Optimization  
-  - Evolutionary Algorithms  
+  - Evolutionary Strategies  
+
+- **Tasks**  
+  - Regression (e.g., California Housing)  
+  - Classification (e.g., Wine Quality)  
 
 - **Experiment Tracking**  
-  Automatic logging of model configurations, performance metrics (CV MSE, CV Accuracy, test scores) and run durations.
+  Automatic logging of hyperparameter configurations, cross-validation metrics, test performance, and runtime statistics.
 
-- **Benchmark Results**  
-  Precomputed outputs for:
-  - **Regression** (California Housing dataset)  
-  - **Classification** (Wine Quality dataset)
+- **Precomputed Results**  
+  Ready-to-inspect outputs for model performance and comparison charts.
